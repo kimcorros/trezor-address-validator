@@ -3,6 +3,7 @@ var Blake256 = require('./blake256');
 var keccak256 = require('./sha3')['keccak256'];
 var Blake2B = require('./blake2b');
 var base58 = require('./base58');
+var bech32 = require('./bech32');
 var base32 = require('./base32');
 var BigNum = require('browserify-bignum');
 var groestl = require('groestl-hash-js');
