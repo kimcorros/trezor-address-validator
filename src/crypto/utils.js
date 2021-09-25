@@ -127,5 +127,6 @@ module.exports = {
     bigNumberToBuffer: function(bignumber, size){
         return new BigNum(bignumber).toBuffer({ size, endian: 'big' });
     },
-    base32: base32
+    base32: base32,
+    bech32: bech32
 }
